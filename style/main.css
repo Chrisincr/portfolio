@@ -2,7 +2,7 @@ body{
     background-color: #474B4F;
 }
 
-header h1{
+header{
     position: fixed;
     top: 0;
     width: 100vw;
@@ -10,8 +10,19 @@ header h1{
     text-align: center;
     margin: 0 auto;
 }
+
+header li{
+    display: inline;
+}
+header button{
+    padding: 10px;
+    border-color: #44318D;
+    background-color: #44318D;
+    border-radius: 25px;
+    color: #FEFFFF;
+}
 .section{
-    
+    padding-top: 90px;
     width: 100vw;
     min-height: 100vh;
     margin: 0;
