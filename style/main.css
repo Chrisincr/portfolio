@@ -10,7 +10,9 @@ header{
     text-align: center;
     margin: 0 auto;
 }
-
+header ul{
+    padding: 0;
+}
 header li{
     display: inline;
 }
@@ -25,7 +27,7 @@ header button{
     padding-top: 90px;
     width: 100vw;
     min-height: 100vh;
-    margin: 0;
+    margin: 0 auto;
 }
 .title{
     color: #FEFFFF;
@@ -33,11 +35,29 @@ header button{
     background-repeat: no-repeat;
     background-size: 100vw 150vh;
 }
-.section h2{
+.about{
+    margin: 0 auto;
     margin-top: 50px;
+    background-color: rgba(47, 48, 47, 0.507);;
+    display: table;
+    border-radius: 25px;
+    padding: 10px;
+}
+.about h2{
+    font-weight: bold;
+}
+.underline-green{
+    text-decoration: underline;
+    text-decoration-color:#86C232;
+}
+.section h2{
+    
     color: #86C232;
 }
-
+.languages{
+    margin-top: 50px;
+    display: inline-block;
+}
 .skills{
     background-color: #222629;
     text-align: center;
@@ -58,3 +78,4 @@ header button{
 .skills ul li{
     font-size: 2rem;
 }
+
