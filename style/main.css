@@ -54,6 +54,10 @@ header button{
     
     color: #86C232;
 }
+.section h3{
+    
+    color: #86C232;
+}
 .languages{
     margin-top: 50px;
     display: inline-block;
@@ -78,4 +82,27 @@ header button{
 .skills ul li{
     font-size: 2rem;
 }
+.projectCard{
+    background-color: #222629;
+    vertical-align: top;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 10%;
+    display: inline-block;
+    margin-right: 2rem;
+    color: #FEFFFF;
+    margin-top: 50px;
+    
+}
+.projectCard img{
+    width: 300px;
+}
+.projects{
+    text-align: center;
+    
+}
 
+.contact{
+    background-color: #222629;
+    color: #FEFFFF;
+}

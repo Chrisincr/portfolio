@@ -14,7 +14,7 @@
     <header>
         
         <h1>Chris Thompson</h1>
-        <ul><li><button onclick="window.location.href = '#title';">About Me</button></li> | <li><button onclick="window.location.href = '#skills';">Skills</button></li> | <li><button onclick="window.location.href = '#projects';">Projects</button></li> | <li><button>Hire Me</button></li></ul>
+        <ul><li><button onclick="window.location.href = '#title';">About Me</button></li> | <li><button onclick="window.location.href = '#skills';">Skills</button></li> | <li><button onclick="window.location.href = '#projects';">Projects</button></li> | <li><button onclick="window.location.href = '#contact';">Hire Me</button></li></ul>
     </header>
     <a name="title"></a>
     <div class='section title'>
@@ -31,7 +31,7 @@
     <a name="skills"></a>
     <div class='section skills'>
         <div class='languages'>
-            <ul><span>Languages</span>
+            <ul class='mr-4'><span>Languages</span>
                 <li>HTML</li>
                 <li>JavaScript</li>
                 <li>CSS</li>
@@ -40,7 +40,7 @@
                 <li>Java</li>
                 <li>C#</li>
             </ul>
-            <ul><span>Frame Works</span>
+            <ul class='mr-4'><span>Frameworks</span>
                 <li>Django</li>
                 <li>Flask</li>
                 <li>Rails</li>
@@ -48,7 +48,7 @@
                 <li>Express</li>
                 <li>.Net</li>
             </ul>
-            <ul><span>Databases</span>
+            <ul class='mr-4'><span>Databases</span>
                 <li>Microsoft SQL</li>
                 <li>MySQL</li>
                 <li>SQLlite</li>
@@ -60,13 +60,41 @@
         
     </div>
     <a name="projects"></a>
-    <div class='section projects'>
-        <div>
-            Lyster
-        </div>
-        <div>
 
+    <div class='section projects'>
+        <div class='projectCard'>
+            <h2>Lyster</h2>
+            <img src='imgs/lyster.PNG' alt='Lyster Preview' onclick="window.open('https://lyster.cthompson.dev'); return false;">
+            <h3><a href='https://lyster.cthompson.dev'>Visit</a></h3>
+                <p>Deployed to an AWS EC2 instance</p>
+                <p>Built in Ruby on Rails Framework</p>
+                <p>Utilizing Bootstrap Styling</p>
+                <p>Tournament Tracking App with Restfull Nested Routing</p>
+            
         </div>
+        <div class='projectCard'>
+            <h2>Pokebook</h2>
+            <img src='imgs/pokebook.PNG' alt='Pokebook Preview' onclick="window.open('https://cthompson.dev'); return false;">
+            <h3><a href='https://cthompson.dev'>Visit</a></h3>
+                <p>Deployed to AWS EC2 using Elastic Beanstalk</p>
+                <p>Built in Python with the Django Framework</p>
+                <p>Utilizing Bootstrap Styling</p>
+                <p>Simple Login and Registration App with User to User interaction</p>
+        </div>
+    </div>
+    <a name='contact'></a>
+    <div class='section contact'>
+        <div>
+            <ul>
+                <h2>Reach me on:</h2>
+                <li>Email: <a href = "mailto:chrisincr@gmail.com.com">Chrisincr@gmail.com</a></li>
+                <li>LinkedIn: <a href = "https://www.linkedin.com/in/christopherthompson83/">https://www.linkedin.com/in/christopherthompson83/</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>Reach out to me for Full time, Contracts, and Individual Projects.</p>
+        </div>
+        
     </div>
     <footer class='section footer'><a name="footer"></a>
         <h2>Photo Credits</h2>
